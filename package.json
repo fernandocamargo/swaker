@@ -1,0 +1,19 @@
+{
+  "name": "swaker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fernandocamargo/swaker.git",
+  "author": "Fernando Camargo Del Buono <f.camargo@expertlead.de>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
